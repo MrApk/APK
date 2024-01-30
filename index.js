@@ -2,7 +2,6 @@ const { Client, Collection, GatewayIntentBits, Events, ActivityType} = require("
 const { createProdia } = require("prodia");
 const { join: joinPath } = require("path");
 const { readdirSync } = require("fs");
-const express = require('express');
 const keep_alive = require('./keep_alive.js')
 
 if (!process.env.DISCORD_TOKEN) throw new Error("DISCORD_CLIENT_ID required");
